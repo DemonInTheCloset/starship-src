@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Install git hooks for pkg development
+cp -v hooks/* .git/hooks

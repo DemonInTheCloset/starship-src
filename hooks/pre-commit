@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# Make sure the pkgsums are up to date
+updpkgsums
+# Generate the .SRCINFO file
+makepkg --printsrcinfo > .SRCINFO
+
+# Add previously modified files
+git add PKGBUILD .SRCINFO

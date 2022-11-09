@@ -1,0 +1,18 @@
+pkgbase = starship-src
+	pkgdesc = The cross-shell prompt for astronauts
+	pkgver = 1.11.0
+	pkgrel = 1
+	url = https://github.com/starship/starship
+	arch = x86_64
+	arch = armv7h
+	arch = aarch64
+	license = ISC
+	makedepends = cargo
+	optdepends = powerline-fonts: powerline symbols for terminals
+	optdepends = nerd-fonts-complete: popular collections such as Font Awesome & fonts such as Hack
+	provides = starship
+	conflicts = starship
+	source = starship-1.11.0.tar.gz::https://github.com/starship/starship/archive/refs/tags/v1.11.0.tar.gz
+	sha256sums = 7b408ef8a2ab47d7a7d0e120889bf12c8f2a965796f8a027d8b2176287fdec6b
+
+pkgname = starship-src
